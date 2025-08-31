@@ -31,7 +31,7 @@ def  forex_index_perf () :
         data =  response.json()
         df =  pd.DataFrame.from_dict(data,"index",columns= ["value"])
         df = df.sort_values("value",ascending=False)
-        print(df)
+        return df#print(df)
     else:
         print(f"Request failed with status code: {response.status_code}")    
     return df
@@ -129,8 +129,13 @@ class FinvizOHLC:
         return self._get_data("w")
 
 # Uso simple
-try:
+
+finviz_data = FinvizOHLC("btcusd").interval_m1
+print(finviz_data) 
+
+"""try:
     finviz_data = FinvizOHLC("btcusd").interval_m1
     print(finviz_data)  # Acceso directo al DataFrame
 except ValueError as e:
     print(f"Error: {e}")
+"""

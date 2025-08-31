@@ -2,7 +2,7 @@ import pandas as pd
 import config as conf
 import os
 from main import *
-from finvizAPI import FinvizOHLC
+from finvizAPI import *
 
 def clear_terminal():
     # Check if the operating system is Windows ('nt')
@@ -33,11 +33,12 @@ def main_menu():
 
 def market_data_menu(): #1. Market Data 
     clear_terminal()
-    print("\n--- Market Data ---")
+    print("\n--- Market Data ---") 
     print("1. View Live Prices")
     print("2. Historical Charts")
     print("3. Technical Indicators")
     print("0. Back")
+    
 
 def analysis_trading_menu():
     clear_terminal()
@@ -96,6 +97,10 @@ def run():
 
         if choice == "1":
             market_data_menu()
+            print("-"*59)
+            df =  forex_index_perf()
+            print(df)
+            print("-"*59)
             input("Press Enter to return...")
 
         elif choice == "2":
@@ -110,7 +115,13 @@ def run():
             input("Press Enter to return : ")
 
         elif choice == "3":
+            clear_terminal()
             charting_visuali_menu()
+            fin  = FinvizOHLC("btcusd")
+            df = fin.interval_m15
+            #df1 = df[["date","close","volume"]]
+            print("Symbol :: BTCUSD ::")
+            print(df)
             input("Press Enter to return...")
 
         elif choice == "4":
