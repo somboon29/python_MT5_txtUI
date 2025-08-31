@@ -118,7 +118,7 @@ def run():
             df = df[["date","title","country"]]
             df["date"] = df["date"].str[5:16]
             print("-"*59) 
-            print(df.head(60))
+            print(df.to_string(index=False)
             print("-"*59) 
               
             input("Press Enter to return...")
