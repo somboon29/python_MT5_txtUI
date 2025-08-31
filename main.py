@@ -2,6 +2,7 @@ import pandas as pd
 import requests
 import json
 import os
+from finvizAPI  import *
 from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text

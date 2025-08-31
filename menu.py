@@ -2,6 +2,7 @@ import pandas as pd
 import config as conf
 import os
 from main import *
+from finvizAPI import FinvizOHLC
 
 def clear_terminal():
     # Check if the operating system is Windows ('nt')
