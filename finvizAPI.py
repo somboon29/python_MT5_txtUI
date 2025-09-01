@@ -130,8 +130,8 @@ class FinvizOHLC:
 
 # Uso simple
 
-finviz_data = FinvizOHLC("btcusd").interval_m1
-print(finviz_data) 
+#finviz_data = FinvizOHLC("btcusd").interval_m1
+#print(finviz_data) 
 
 """try:
     finviz_data = FinvizOHLC("btcusd").interval_m1

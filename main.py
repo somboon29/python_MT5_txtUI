@@ -47,10 +47,12 @@ def forex_news(source = "forex"):
     except ValueError as e:
         print(f"Error: {e}")
         print("exceeded the limit for Calendar  Please wait")
-        df = pd.read_csv(f"forex_txtui/news_forex.csv",index_col=False)
+        df = pd.read_csv(f"news_forex.csv",index_col=False)
         return df
 
- 
+#orex_news("forex")
+#orex_news("oil")
+#orex_news("gold")
  
 def show_news():
     """Displays formatted news headlines in a panel."""
@@ -72,7 +74,7 @@ def show_news():
 def fetch_indicator_allsymbol(symbols: list[str] = None) -> pd.DataFrame:
     SYMBOL_TABLE_MAP = {
     0: "EURUSD", 3: "GBPUSD", 6: "USDJPY",
-    9: "CHFUSD", 12: "AUDUSD", 15: "EURGBP",
+    9: "USDCHF", 12: "AUDUSD", 15: "EURGBP",
     18: "USDCAD", 21: "NZDUSD"  }
 
     url = "https://www.investing.com/technical/indicators"
@@ -124,7 +126,7 @@ def ta_indy (symbol:str = "eurusd"):
     df_ta_indy["Symbol"] =  ticker
     df_ma = tables[2][:-1]
     df_ma["Symbol"] =  ticker
-    #print(df_pivot_points)
+    print(df_pivot_points)
     print(df_ta_indy)
     print(df_ma)
     return df_ma ,df_ta_indy ,df_pivot_points
@@ -143,3 +145,6 @@ def emoji () :
     rich.print(":ledger:")    #:closed_book:  :green_book: :ledger: green_book ::books::
     rich.print(":bar_chart:")
     rich.print(":pushpin: 12345 :bar_chart:")
+
+#print("-"*59)
+#ta_indy("gbpjpy")

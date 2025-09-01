@@ -127,13 +127,13 @@ def run():
         elif choice == "4":
             clear_terminal()
             df = forex_news("forex")
-            df = df[["date","title","country"]]
+            df         = df[["date","country","title","impact"]]
+            df.columns = ["date","sym","title","impt"]
             df["date"] = df["date"].str[5:16]
             print("-"*59) 
             print(df.to_string(index=False))
             print("-"*59) 
-              
-            input("Press Enter to return...")
+            input("Press Enter to return... ::")
 
         elif choice == "5":
             strategy_menu()
