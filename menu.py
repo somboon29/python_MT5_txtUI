@@ -2,6 +2,7 @@ import pandas as pd
 import config as conf
 import os
 from main import *
+from news import *
 from finvizAPI import *
 
 def clear_terminal():
@@ -117,22 +118,13 @@ def run():
         elif choice == "3":
             clear_terminal()
             charting_visuali_menu()
-            fin  = FinvizOHLC("btcusd")
-            df = fin.interval_m15
-            #df1 = df[["date","close","volume"]]
-            print("Symbol :: BTCUSD ::")
             print(df)
             input("Press Enter to return...")
 
         elif choice == "4":
             clear_terminal()
-            df = forex_news("forex")
-            df         = df[["date","country","title","impact"]]
-            df.columns = ["date","sym","title","impt"]
-            df["date"] = df["date"].str[5:16]
-            print("-"*59) 
-            print(df.to_string(index=False))
-            print("-"*59) 
+            #get_news()
+            forex_news_table()
             input("Press Enter to return... ::")
 
         elif choice == "5":
