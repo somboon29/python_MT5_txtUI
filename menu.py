@@ -90,7 +90,7 @@ def help_menu():
     print("2. Contact Support")
     print("0. Back")
 
-# Navigation loop
+# Navigation loop 
 def run():
     while True:
         main_menu()
