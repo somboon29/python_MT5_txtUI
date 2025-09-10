@@ -1,104 +1,71 @@
 title,country,date,impact,forecast,previous
-Building Consents m/m,NZD,2025-08-31 18:45,Low,,-6.4%
-Capital Spending q/y,JPY,2025-08-31 19:50,Low,6.3%,6.4%
-Final Manufacturing PMI,JPY,2025-08-31 20:30,Low,49.9,49.9
-MI Inflation Gauge m/m,AUD,2025-08-31 21:00,Low,,0.9%
-ANZ Job Advertisements m/m,AUD,2025-08-31 21:30,Low,,-1.0%
-Building Approvals m/m,AUD,2025-08-31 21:30,Low,-4.8%,11.9%
-Company Operating Profits q/q,AUD,2025-08-31 21:30,Low,1.0%,-0.5%
-RatingDog Manufacturing PMI,CNY,2025-08-31 21:45,Low,49.7,49.5
-Nationwide HPI m/m,GBP,2025-09-01 02:00,Low,0.1%,0.6%
-Commodity Prices y/y,AUD,2025-09-01 02:30,Low,,-9.0%
-Retail Sales y/y,CHF,2025-09-01 02:30,Low,3.6%,3.8%
-Spanish Manufacturing PMI,EUR,2025-09-01 03:15,Low,52.1,51.9
-Manufacturing PMI,CHF,2025-09-01 03:30,Low,46.9,48.8
-Italian Manufacturing PMI,EUR,2025-09-01 03:45,Low,49.8,49.8
-French Final Manufacturing PMI,EUR,2025-09-01 03:50,Low,49.9,49.9
-German Final Manufacturing PMI,EUR,2025-09-01 03:55,Low,49.9,49.9
-Final Manufacturing PMI,EUR,2025-09-01 04:00,Low,50.5,50.5
-Italian Monthly Unemployment Rate,EUR,2025-09-01 04:00,Low,6.2%,6.3%
-Final Manufacturing PMI,GBP,2025-09-01 04:30,Low,47.3,47.3
-M4 Money Supply m/m,GBP,2025-09-01 04:30,Low,0.2%,0.3%
-Mortgage Approvals,GBP,2025-09-01 04:30,Low,64K,64K
-Net Lending to Individuals m/m,GBP,2025-09-01 04:30,Low,4.9B,6.8B
-Unemployment Rate,EUR,2025-09-01 05:00,Low,6.2%,6.2%
-Bank Holiday,CAD,2025-09-01 08:00,Holiday,,
-Bank Holiday,USD,2025-09-01 08:00,Holiday,,
-Overseas Trade Index q/q,NZD,2025-09-01 18:45,Low,2.1%,1.9%
-Monetary Base y/y,JPY,2025-09-01 19:50,Low,-3.5%,-3.9%
-Current Account,AUD,2025-09-01 21:30,Low,-15.9B,-14.7B
-10-y Bond Auction,JPY,2025-09-01 23:35,Low,,1.46|3.1
-French Gov Budget Balance,EUR,2025-09-02 02:45,Low,,-100.4B
-Spanish Unemployment Change,EUR,2025-09-02 03:00,Low,,-1.4K
-Core CPI Flash Estimate y/y,EUR,2025-09-02 05:00,Medium,2.2%,2.3%
-CPI Flash Estimate y/y,EUR,2025-09-02 05:00,Medium,2.0%,2.0%
-Manufacturing PMI,CAD,2025-09-02 09:30,Low,,46.1
-Final Manufacturing PMI,USD,2025-09-02 09:45,Low,53.3,53.3
-German Buba President Nagel Speaks,EUR,2025-09-02 10:00,Low,,
-ISM Manufacturing PMI,USD,2025-09-02 10:00,High,48.9,48.0
-ISM Manufacturing Prices,USD,2025-09-02 10:00,Medium,65.1,64.8
-Construction Spending m/m,USD,2025-09-02 10:00,Low,-0.1%,-0.4%
-RCM/TIPP Economic Optimism,USD,2025-09-02 10:10,Low,51.8,50.9
-GDT Price Index,NZD,2025-09-02 10:50,Low,,-0.3%
-ANZ Commodity Prices m/m,NZD,2025-09-02 21:00,Low,,-1.8%
-GDP q/q,AUD,2025-09-02 21:30,High,0.5%,0.2%
-RatingDog Services PMI,CNY,2025-09-02 21:45,Low,52.4,52.6
-Spanish Services PMI,EUR,2025-09-03 03:15,Low,54.2,55.1
-ECB President Lagarde Speaks,EUR,2025-09-03 03:30,Medium,,
-Italian Services PMI,EUR,2025-09-03 03:45,Low,52.1,52.3
-French Final Services PMI,EUR,2025-09-03 03:50,Low,49.7,49.7
-German Final Services PMI,EUR,2025-09-03 03:55,Low,50.1,50.1
-RBA Gov Bullock Speaks,AUD,2025-09-03 04:00,High,,
-Final Services PMI,EUR,2025-09-03 04:00,Low,50.7,50.7
-MPC Member Breeden Speaks,GBP,2025-09-03 04:15,Low,,
-Final Services PMI,GBP,2025-09-03 04:30,Low,53.6,53.6
-PPI m/m,EUR,2025-09-03 05:00,Low,0.1%,0.8%
-German 10-y Bond Auction,EUR,2025-09-03 05:42,Low,,2.69|1.4
-Labor Productivity q/q,CAD,2025-09-03 08:30,Low,-0.3%,0.2%
-FOMC Member Musalem Speaks,USD,2025-09-03 09:00,Low,,
-Monetary Policy Report Hearings,GBP,2025-09-03 09:15,Medium,,
-JOLTS Job Openings,USD,2025-09-03 10:00,High,7.24M,7.44M
-Factory Orders m/m,USD,2025-09-03 10:00,Low,-1.3%,-4.8%
-Wards Total Vehicle Sales,USD,2025-09-03 10:15,Low,16.0M,16.4M
-FOMC Member Kashkari Speaks,USD,2025-09-03 13:30,Low,,
-Beige Book,USD,2025-09-03 14:00,Low,,
-API Weekly Statistical Bulletin,USD,2025-09-03 16:30,Low,,
-RBA Deputy Gov Hauser Speaks,AUD,2025-09-03 21:00,Low,,
-Goods Trade Balance,AUD,2025-09-03 21:30,Low,4.88B,5.37B
-30-y Bond Auction,JPY,2025-09-03 23:35,Low,,3.09|3.4
-CPI m/m,CHF,2025-09-04 02:30,High,0.0%,0.0%
-Unemployment Rate,CHF,2025-09-04 03:00,Low,2.9%,2.9%
-Construction PMI,GBP,2025-09-04 04:30,Low,45.2,44.3
-Retail Sales m/m,EUR,2025-09-04 05:00,Low,-0.2%,0.3%
-French 10-y Bond Auction,EUR,2025-09-04 05:18,Low,,3.41|2.9
-Challenger Job Cuts y/y,USD,2025-09-04 07:30,Low,,139.8%
-ADP Non-Farm Employment Change,USD,2025-09-04 08:15,High,71K,104K
-Trade Balance,CAD,2025-09-04 08:30,Low,-5.2B,-5.9B
-Unemployment Claims,USD,2025-09-04 08:30,High,229K,229K
-Revised Nonfarm Productivity q/q,USD,2025-09-04 08:30,Low,2.9%,2.4%
-Revised Unit Labor Costs q/q,USD,2025-09-04 08:30,Low,0.9%,1.6%
-Trade Balance,USD,2025-09-04 08:30,Low,-67.2B,-60.2B
-Final Services PMI,USD,2025-09-04 09:45,Low,55.4,55.4
-ISM Services PMI,USD,2025-09-04 10:00,High,50.5,50.1
-Natural Gas Storage,USD,2025-09-04 10:30,Low,,18B
-Crude Oil Inventories,USD,2025-09-04 12:00,Low,,-2.4M
-FOMC Member Williams Speaks,USD,2025-09-04 12:05,Low,,
-FOMC Member Goolsbee Speaks,USD,2025-09-04 19:00,Low,,
-Average Cash Earnings y/y,JPY,2025-09-04 19:30,Low,3.0%,2.5%
-Household Spending y/y,JPY,2025-09-04 19:30,Low,2.2%,1.3%
-Leading Indicators,JPY,2025-09-05 01:00,Low,105.8%,106.1%
-German Factory Orders m/m,EUR,2025-09-05 02:00,Low,0.4%,-1.0%
-Retail Sales m/m,GBP,2025-09-05 02:00,Medium,0.4%,0.9%
-Halifax HPI m/m,GBP,2025-09-05 02:00,Low,0.2%,0.4%
-French Trade Balance,EUR,2025-09-05 02:45,Low,-7.3B,-7.6B
-Foreign Currency Reserves,CHF,2025-09-05 03:00,Low,,716B
-SECO Consumer Climate,CHF,2025-09-05 03:00,Low,-37,-33
-Italian Retail Sales m/m,EUR,2025-09-05 04:00,Low,0.4%,0.6%
-Final Employment Change q/q,EUR,2025-09-05 05:00,Low,0.1%,0.1%
-Revised GDP q/q,EUR,2025-09-05 05:00,Low,0.1%,0.1%
-Employment Change,CAD,2025-09-05 08:30,High,9.4K,-40.8K
-Unemployment Rate,CAD,2025-09-05 08:30,High,7.0%,6.9%
-Average Hourly Earnings m/m,USD,2025-09-05 08:30,High,0.3%,0.3%
-Non-Farm Employment Change,USD,2025-09-05 08:30,High,74K,73K
-Unemployment Rate,USD,2025-09-05 08:30,High,4.3%,4.2%
-Ivey PMI,CAD,2025-09-05 10:00,Medium,53.1,55.8
+OPEC-JMMC Meetings,All,2025-09-07 05:15,Medium,,
+Bank Lending y/y,JPY,2025-09-07 19:50,Low,3.2%,3.2%
+Current Account,JPY,2025-09-07 19:50,Low,2.60T,2.40T
+Final GDP Price Index y/y,JPY,2025-09-07 19:50,Low,3.0%,3.0%
+Final GDP q/q,JPY,2025-09-07 19:50,Low,0.3%,0.3%
+Trade Balance,CNY,2025-09-07 23:01,Low,750B,705B
+USD-Denominated Trade Balance,CNY,2025-09-07 23:02,Low,99.4B,98.2B
+Economy Watchers Sentiment,JPY,2025-09-08 01:00,Low,45.6,45.2
+German Industrial Production m/m,EUR,2025-09-08 02:00,Low,1.1%,-1.9%
+German Trade Balance,EUR,2025-09-08 02:00,Low,15.7B,14.9B
+Sentix Investor Confidence,EUR,2025-09-08 04:30,Low,-2.2,-3.7
+Consumer Credit m/m,USD,2025-09-08 15:00,Low,10.4B,7.4B
+Manufacturing Sales q/q,NZD,2025-09-08 18:45,Low,,5.1%
+BRC Retail Sales Monitor y/y,GBP,2025-09-08 19:01,Low,2.0%,1.8%
+M2 Money Stock y/y,JPY,2025-09-08 19:50,Low,1.1%,1.0%
+Westpac Consumer Sentiment,AUD,2025-09-08 20:18,Low,,5.7%
+NAB Business Confidence,AUD,2025-09-08 21:30,Low,,7
+Prelim Machine Tool Orders y/y,JPY,2025-09-09 01:58,Low,,3.6%
+French Industrial Production m/m,EUR,2025-09-09 02:45,Low,-1.4%,3.8%
+German 10-y Bond Auction,EUR,2025-09-09 05:31,Low,,2.77|1.4
+NFIB Small Business Index,USD,2025-09-09 06:00,Low,100.5,100.3
+German Buba President Nagel Speaks,EUR,2025-09-09 07:30,Low,,
+SNB Chairman Schlegel Speaks,CHF,2025-09-09 07:50,Medium,,
+API Weekly Statistical Bulletin,USD,2025-09-09 16:30,Low,,
+Visitor Arrivals m/m,NZD,2025-09-09 18:45,Low,,-2.5%
+CPI y/y,CNY,2025-09-09 21:30,Medium,-0.2%,0.0%
+PPI y/y,CNY,2025-09-09 21:30,Medium,-2.9%,-3.6%
+Italian Industrial Production m/m,EUR,2025-09-10 04:00,Low,0.1%,0.2%
+SNB Chairman Schlegel Speaks,CHF,2025-09-10 07:45,Medium,,
+Core PPI m/m,USD,2025-09-10 08:30,High,0.3%,0.9%
+PPI m/m,USD,2025-09-10 08:30,High,0.3%,0.9%
+Final Wholesale Inventories m/m,USD,2025-09-10 10:00,Low,0.2%,0.2%
+Crude Oil Inventories,USD,2025-09-10 10:30,Low,-1.9M,2.4M
+10-y Bond Auction,USD,2025-09-10 13:01,Low,,4.26|2.4
+RICS House Price Balance,GBP,2025-09-10 19:01,Low,-12%,-13%
+RBNZ Gov Hawkesby Speaks,NZD,2025-09-10 19:15,High,,
+BSI Manufacturing Index,JPY,2025-09-10 19:50,Low,-3.3,-4.8
+PPI y/y,JPY,2025-09-10 19:50,Low,2.7%,2.6%
+MI Inflation Expectations,AUD,2025-09-10 21:00,Low,,3.9%
+New Loans,CNY,2025-09-11 04:03,Medium,700B,-50B
+M2 Money Supply y/y,CNY,2025-09-11 04:03,Low,8.7%,8.8%
+Main Refinancing Rate,EUR,2025-09-11 08:15,High,2.15%,2.15%
+Monetary Policy Statement,EUR,2025-09-11 08:15,High,,
+Core CPI m/m,USD,2025-09-11 08:30,High,0.3%,0.3%
+CPI m/m,USD,2025-09-11 08:30,High,0.3%,0.2%
+CPI y/y,USD,2025-09-11 08:30,High,2.9%,2.7%
+Unemployment Claims,USD,2025-09-11 08:30,High,235K,237K
+ECB Press Conference,EUR,2025-09-11 08:45,High,,
+Natural Gas Storage,USD,2025-09-11 10:30,Low,69B,55B
+30-y Bond Auction,USD,2025-09-11 13:01,Low,,4.81|2.3
+Federal Budget Balance,USD,2025-09-11 14:00,Low,-305.7B,-291.1B
+BusinessNZ Manufacturing Index,NZD,2025-09-11 18:30,Low,,52.8
+RBA Assist Gov Jones Speaks,AUD,2025-09-11 22:00,Low,,
+Revised Industrial Production m/m,JPY,2025-09-12 00:30,Low,-1.6%,-1.6%
+German Final CPI m/m,EUR,2025-09-12 02:00,Low,0.1%,0.1%
+GDP m/m,GBP,2025-09-12 02:00,High,0.0%,0.4%
+Construction Output m/m,GBP,2025-09-12 02:00,Low,-0.2%,0.3%
+Goods Trade Balance,GBP,2025-09-12 02:00,Low,-21.6B,-22.2B
+Index of Services 3m/3m,GBP,2025-09-12 02:00,Low,0.3%,0.4%
+Industrial Production m/m,GBP,2025-09-12 02:00,Low,0.0%,0.7%
+Manufacturing Production m/m,GBP,2025-09-12 02:00,Low,0.1%,0.5%
+French Final CPI m/m,EUR,2025-09-12 02:45,Low,0.4%,0.4%
+Italian Quarterly Unemployment Rate,EUR,2025-09-12 04:00,Low,6.1%,6.1%
+German Buba President Nagel Speaks,EUR,2025-09-12 04:15,Low,,
+Consumer Inflation Expectations,GBP,2025-09-12 04:30,Low,,3.2%
+Building Permits m/m,CAD,2025-09-12 08:30,Low,3.7%,-9.0%
+Capacity Utilization Rate,CAD,2025-09-12 08:30,Low,78.8%,80.1%
+CB Leading Index m/m,GBP,2025-09-12 09:30,Low,,-0.1%
+Prelim UoM Consumer Sentiment,USD,2025-09-12 10:00,High,58.2,58.6
+Prelim UoM Inflation Expectations,USD,2025-09-12 10:00,High,,4.9%

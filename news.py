@@ -36,8 +36,8 @@ def get_news () :
     forex_news("oil")
     forex_news("gold")
 
-def forex_news_table () :
-    df_news_forex = pd.read_csv('news_forex.csv')
+def forex_news_table (source:str = "news_gold.csv") -> None:
+    df_news_forex = pd.read_csv(source)
     df         = df_news_forex.drop(["forecast","previous"],axis=1)
     df         = df[["date","country","title","impact"]]
     df.columns = ["date","sym","title","impt"]
@@ -45,7 +45,7 @@ def forex_news_table () :
     console = Console(width=59)
     # Create a rich Panel for the main title, simulating a menu
     menu_panel = Panel(
-        "[bold cyan]:: forexfactory.com/calendar ::[/bold cyan]",
+        f"[bold cyan]:: Calendar ::         source : {source} ::[/bold cyan]",
         title="[bold yellow]News Forex[/bold yellow]",
         #subtitle="[bold yellow]v1.0[/bold yellow]",
         style="bright_blue",

@@ -4,6 +4,8 @@ import os
 from main import *
 from news import *
 from finvizAPI import *
+from technical import *
+
 
 def clear_terminal():
     # Check if the operating system is Windows ('nt')
@@ -20,22 +22,54 @@ def main_menu():
     print("-"*59)
     print("Select an option:")
     print(" [1]. Market Data")
-    print(" [2]. Analysis Trading")
+    print(" [2]. Technical Analysis ")
     print(" [3]. Charting and visualizations")
     print(" [4]. News")
-    print(" [5]. Strategy Optimisation")
-    print(" [6]. Data-driven market analysis")
-    print(" [7]. AI Chat")
+    print(" [5]. Market Sentiment Analysis:")
+    print(" [6]. Backtesting and Strategy Development")
+    print(" [7]. Deployment and Monitoring ")
     print(" [8]. Settings")
     print(" [9]. Help📚 ")
+    print(" [10]. AI / ML / DL")
     print(" [0]. Exit")
-    
     print("-"*59)
+
+def sub_menu_news():
+    while True:
+        clear_terminal()
+        print("📊 :: Sub Menu News ::")
+        print(" [1]. Load data News")
+        print(" [2]. forex News")
+        print(" [3]. Gold News")
+        print(" [4]. Oil News")
+        print(" [0]. Back to Main Menu")
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            print("👉 Fetching Data News...")
+            get_news() 
+            input("Press Enter to continue...")
+        elif choice == "2":
+            clear_terminal()
+            forex_news_table("news_forex.csv")
+            input("Press Enter to continue...")
+        elif choice == "3":
+            clear_terminal()
+            forex_news_table("news_gold.csv")
+            input("Press Enter to continue...")    
+        elif choice == "4":
+            clear_terminal()
+            forex_news_table("news_oil.csv")
+            input("Press Enter to continue...")                
+        elif choice == "0":
+            return
+        else:
+            input("⚠️ Invalid choice. Press Enter to try again...")
 
 def market_data_menu(): #1. Market Data 
     clear_terminal()
     print("\n--- Market Data ---") 
-    print("1. View Live Prices")
+    print("1. Retrieving Historical Forex Data")
     print("2. Historical Charts")
     print("3. Technical Indicators")
     print("0. Back")
@@ -71,10 +105,12 @@ def strategy_menu(): #  Parameter Optimisation
     clear_terminal()
     print(":: --- Strategy Tools --- ::")
     print("1. Backtesting")
-    print("2. Paper Trading")
-    print("3. AI/ML Predictions")
-    print("4. Strategy Optimisation")
-    print("5. Parameter Optimisation")
+    print("2. Test on Historical Data")
+    print("3. Vectorized vs. Event-Based")
+    print("4. Robust Evaluation:")
+    print("5. Risk Management")
+    print("6. Optimization")
+    print("7. Strategy Formulation") #[ Connect to a Trading Platform ]
     print("0. Back")
 
 def settings_menu():
@@ -91,6 +127,7 @@ def help_menu():
     print("0. Back")
 
 # Navigation loop 
+# Data Preparation and Feature Engineering"
 def run():
     while True:
         main_menu()
@@ -105,30 +142,30 @@ def run():
             input("Press Enter to return...")
 
         elif choice == "2":
-            analysis_trading_menu()  
             clear_terminal()
-            print("-"*59)   
-            df  = fetch_indicator_allsymbol()
-            print(df.head(60))
-            print("-"*59) 
-            print(df.tail(60))
-            print("-"*59)  
+            print("::  Technical Forex  ::\n")
+            print("Symbol list : eurusd,gbpusd,usdcad,usdchf,usdjpy,audusd\n")
+            print("-"*59)
+            txt = input("Press Type forex Symbol : ")
+            ta_indy(txt)
             input("Press Enter to return : ")
 
         elif choice == "3":
             clear_terminal()
             charting_visuali_menu()
+            get_news()
             print(df)
             input("Press Enter to return...")
 
         elif choice == "4":
             clear_terminal()
-            #get_news()
-            forex_news_table()
+            sub_menu_news()
+            #forex_news_table()
             input("Press Enter to return... ::")
 
         elif choice == "5":
             strategy_menu()
+            get_news()
             input("Press Enter to return...")
         elif choice == "6":
             settings_menu()

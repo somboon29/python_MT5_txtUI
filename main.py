@@ -121,12 +121,14 @@ def ta_indy (symbol:str = "eurusd"):
     ticker = symbol.replace("-", "").upper()
 
     df_pivot_points  = tables[0]
+    df_pivot_points  = df_pivot_points[["Name","S2","S1","Pivot Points","R1","R2"]]
     df_ta_indy = tables[1][:-1]
     df_ta_indy = df_ta_indy.replace(["Ultimate "," Power"],"", regex=True)
     df_ta_indy["Symbol"] =  ticker
     df_ma = tables[2][:-1]
     df_ma["Symbol"] =  ticker
     print(df_pivot_points)
+    print("-"*59)
     print(df_ta_indy)
     print(df_ma)
     return df_ma ,df_ta_indy ,df_pivot_points
@@ -147,4 +149,4 @@ def emoji () :
     rich.print(":pushpin: 12345 :bar_chart:")
 
 #print("-"*59)
-#ta_indy("gbpjpy")
+ta_indy("usdcad")
